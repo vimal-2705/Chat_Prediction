@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Predict({}) {
+function Predict() {
 
   const showFile = async (e) => {
     let text = ''
@@ -8,7 +8,6 @@ function Predict({}) {
     const reader = new FileReader()
     reader.onload = async (e) => { 
       text = (e.target.result)
-      this.setState({ fileData : text })
       console.log(text)
       alert(text)
     };
