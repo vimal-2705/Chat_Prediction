@@ -38,7 +38,7 @@ function Trainers() {
               appear.
             </div>
           </div>
-          <Link to="/teachers"><button className="trainer-btn">All Trainers</button></Link>
+          <Link to="/teachers"><button className="trainer-btn">All Teachers</button></Link>
         </div>
 
         <div className="trainer trainer3">
@@ -56,9 +56,6 @@ function Trainers() {
           </div>
         </div>
       </div>
-      <center>
-      <Link to="/trainers"><button className="navigate-btn last">All Trainers</button></Link>
-      </center>
     </div>
   );
 }
