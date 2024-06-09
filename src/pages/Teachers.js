@@ -1,7 +1,7 @@
 import {React, useEffect} from "react";
 import Footer from "../components/Footer";
 
-function Trainers() {
+function Teachers() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -9,13 +9,13 @@ function Trainers() {
     <div className="trainerspage-container">
       <div className="aboutus-parallax">
         <h1 className="page-heading">
-          <span style={{ color: "rgb(233, 140, 0)" }}>TRAINERS </span>
+          <span style={{ color: "rgb(233, 140, 0)" }}>TEACHERS </span>
           WITH US
         </h1>
-        <p>
-          The body tech was first established on 25th May 2018 in SIDCO
-          industrial Estate which is now a top player among fitness centres in
-          Coimbatore.
+        <p className="page-passage">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+        but also the leap into electronic typesetting, remaining essentially unchanged..
         </p>
         <i
           class="fa fa-angle-double-down"
@@ -93,4 +93,4 @@ function Trainers() {
   );
 }
 
-export default Trainers;
+export default Teachers;

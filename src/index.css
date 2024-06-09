@@ -187,10 +187,23 @@ input {
   transition: 0.5s;
 }
 
+.contactus-text-box {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+  transition: 0.5s;
+}
+
 input:focus {
   outline: none;
   border: none;
   border-bottom: 1px solid rgba(31, 183, 0, 0.5);
+}
+
+.input-container {
+  margin: 10px 0px;
 }
 
 .login {
@@ -250,6 +263,24 @@ input:focus {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
+}
+
+.message-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 25px 50px;
+  margin: 50px;
+}
+
+.input-part1 {
+  margin: 10px 50px;
+}
+
+.input-part2 {
+  margin: 10px 50px;
 }
 
 .radio-btn {
@@ -784,16 +815,16 @@ table {
 
 
 .slide-image1 {
-  background-image: url("https://images.pexels.com/photos/20491053/pexels-photo-20491053/free-photo-of-cherry-blossoms-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://images.pexels.com/photos/2131921/pexels-photo-2131921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 .slide-image2 {
-  background-image: url("https://images.pexels.com/photos/40896/larch-conifer-cone-branch-tree-40896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 .slide-image3 {
-  background-image: url("https://images.pexels.com/photos/129574/pexels-photo-129574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://images.pexels.com/photos/760281/pexels-photo-760281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 .slide-image4 {
-  background-image: url("https://images.pexels.com/photos/1046447/pexels-photo-1046447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 
 .slide-image1,
@@ -802,7 +833,7 @@ table {
 .slide-image4 {
   width: 100%;
   min-height: 100vh;
-  box-shadow: inset 0 0 70rem 8rem #000;
+  box-shadow: inset 0 0 100rem 7rem #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -885,13 +916,14 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("https://images.pexels.com/photos/2506831/pexels-photo-2506831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   flex-direction: column;
-  background-image: url("https://images.pexels.com/photos/2422576/pexels-photo-2422576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0 0 100rem 4rem #000000c5;
 }
 
 .navigate-btn {
@@ -1284,12 +1316,12 @@ h5 {
 .contact-container {
   width: 100%;
   padding: 80px 30px;
-  background-image: url("https://media.istockphoto.com/photos/torso-of-athletic-man-in-leather-jacket-picture-id920911716?k=20&m=920911716&s=612x612&w=0&h=6G0HoI2WpBaNB2uwS153VFOSUs1ge53JtjlmCl-1SEc=");
+  background-image: url("https://images.pexels.com/photos/259571/pexels-photo-259571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 0 0 80rem 8rem #000;
+  box-shadow: inset 0 0 100rem 5rem #000;
   color: rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: center;
@@ -1359,7 +1391,7 @@ h5 {
 .reachus {
   width: 100%;
   padding: 80px 30px;
-  background-image: url("https://mcdn.wallpapersafari.com/medium/71/0/KUmtY1.jpg");
+  background-image: url("https://images.pexels.com/photos/1707580/pexels-photo-1707580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1429,17 +1461,17 @@ h5 {
 
 .aboutus-parallax {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://media.istockphoto.com/photos/torso-of-athletic-man-in-leather-jacket-picture-id920911716?k=20&m=920911716&s=612x612&w=0&h=6G0HoI2WpBaNB2uwS153VFOSUs1ge53JtjlmCl-1SEc=");
+  background-image: url("https://images.pexels.com/photos/2734519/pexels-photo-2734519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 0 0 80rem 8rem #000;
+  box-shadow: inset 0 0 50rem 4rem #000;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1460,7 +1492,7 @@ h5 {
 }
 
 .page-heading {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .aboutus1,
@@ -1489,7 +1521,7 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://www.bodytechfitnessclub.in/static/images/undraw_working_out_6psf.svg");
+  background-image: url("https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1505,13 +1537,13 @@ h5 {
 
 .about-left3 {
   flex: 2;
-  width: 100%;
+  min-width: 45%;
   min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://www.bodytechfitnessclub.in/static/images/undraw_Activity_tracker_re_2lvv.svg");
+  background-image: url("https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1525,7 +1557,7 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://www.bodytechfitnessclub.in/static/images/undraw_fitness_tracker_3033.svg");
+  background-image: url("https://images.pexels.com/photos/317385/pexels-photo-317385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1576,7 +1608,7 @@ h5 {
 .contact-left {
   flex: 2;
   min-height: 40vh;
-  background-image: url("https://www.bodytechfitnessclub.in/static/images/contact.svg");
+  background-image: url("https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1614,7 +1646,7 @@ h5 {
   flex: 1;
   min-height: 70vh;
   margin-right: 5px;
-  background-image: url("https://www.bodytechfitnessclub.in/static/images/DSC02284.JPG");
+  background-image: url("https://images.pexels.com/photos/227294/pexels-photo-227294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1671,7 +1703,7 @@ h5 {
 .other-trainee-top {
   width: 100%;
   min-height: 35vh;
-  background-image: url("https://wallpapercave.com/wp/wp2639558.jpg");
+  background-image: url("https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1900,9 +1932,449 @@ h5 {
   font-weight: bold;
 }
 
-.home-passage {
+.home-passage,
+.page-passage {
   margin: 20px 300px;
   padding: 30px;
   text-align: center;
   font-size: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-item {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .Carousel-Title {
+    font-size: 30px;
+  }
+
+  .service1,
+  .service2 {
+    padding: 20px 20%;
+  }
+  .trainer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .trainer {
+    min-width: 40%;
+  }
+  .pack-name {
+    font-size: 16px;
+  }
+  .colored-pack {
+    font-size: 17px;
+  }
+  .colored-rs {
+    font-size: 18px;
+  }
+  .pack-details {
+    padding: 20px;
+    font-size: 13px;
+  }
+  .loc {
+    padding: 10px 80px;
+  }
+
+  .aboutus-parallax {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .page-passage {
+    margin: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .service {
+    min-width: 100%;
+  }
+
+  .page-passage {
+    margin: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .item6,
+  .item3 {
+    display: none;
+  }
+  .colored {
+    font-size: 30px;
+  }
+  .Carousel-Title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .home-heading {
+    font-size: 27px;
+  }
+  .home-passage {
+    margin: auto 15%;
+    font-size: 15px;
+  }
+  .trainer {
+    min-width: 50%;
+  }
+  .loc {
+    padding: 10px 50px;
+  }
+  .review {
+    min-width: 50%;
+  }
+  .copyrights {
+    font-size: 15px;
+  }
+  .ph-num,
+  .mail {
+    font-size: 15px;
+  }
+  .page-heading {
+    font-size: 38px;
+  }
+  .service-right {
+    position: static;
+  }
+  .service {
+    flex-wrap: wrap;
+    min-width: 90%;
+  }
+  .trainee1 {
+    flex-wrap: wrap;
+  }
+  .trainee1-left {
+    min-width: 40%;
+  }
+  .trainee1-details {
+    font-size: 14px;
+  }
+  .other-trainee-details {
+    font-size: 14px;
+  }
+  .other-trainee {
+    min-width: 45%;
+    margin: 10px 5px 10px 5px;
+  }
+  .other-trainee-container {
+    flex-wrap: wrap;
+  }
+
+  .page-passage {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service1,
+  .service2 {
+    padding: 20px;
+  }
+  .loc {
+    padding: 20px;
+  }
+  .package {
+    flex-wrap: wrap;
+  }
+  .package-first,
+  .package-second,
+  .package-third {
+    margin: 10px 0;
+  }
+  .service {
+    display: block;
+  }
+  .service-left {
+    min-width: 100%;
+    min-height: 40vh;
+  }
+  .about-left1,
+  .about-left2,
+  .about-left3 {
+    min-width: 50%;
+  }
+  .aboutus-text {
+    font-size: 13px;
+  }
+  .heading-bold {
+    font-size: 29px;
+  }
+  .trainee1-left {
+    max-width: 70%;
+  }
+  .trainee1-right {
+    margin: 0;
+  }
+  .trainee1-right {
+    min-width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-item {
+    padding: 8px;
+  }
+  .item4 {
+    padding: 20px;
+  }
+  .Carousel-Title {
+    font-size: 24px;
+  }
+  .colored {
+    font-size: 26px;
+  }
+  .home-heading {
+    font-size: 25px;
+  }
+  .home-passage {
+    font-size: 14px;
+  }
+  .navigate-btn,
+  .about-btn,
+  .register-btn,
+  .location-btn,
+  .contact-btn {
+    font-size: 13px;
+  }
+  .direct {
+    font-size: 18px;
+  }
+  .copyrights {
+    font-size: 14px;
+  }
+  .trainer-name {
+    font-size: 12px;
+  }
+  .trainer-about {
+    font-size: 11px;
+  }
+  .trainers-container {
+    width: 100%;
+    min-height: 90vh;
+    padding: 80px 0px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .trainer-container {
+    min-width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .trainer {
+    min-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 0 0 3px rgb(223, 126, 0);
+  }
+
+  .trainer2 {
+    transform: scale(1);
+    margin: 0;
+    margin-top: 10px;
+  }
+  .trainer1,
+  .trainer3 {
+    margin-top: 10px;
+  }
+  .last {
+    display: block;
+  }
+  .trainer-btn {
+    display: none;
+  }
+  .trainer3 {
+    margin-bottom: 20px;
+  }
+  .page-heading {
+    font-size: 28px;
+  }
+  .aboutus1,
+  .aboutus3 {
+    flex-wrap: wrap;
+  }
+  .aboutus2 {
+    flex-wrap: wrap-reverse;
+  }
+  .about-left1,
+  .about-left2,
+  .about-left3 {
+    min-width: 70%;
+  }
+  .about-right1,
+  .about-right2,
+  .about-right3 {
+    min-width: 90%;
+  }
+  .trainee1-right {
+    margin-top: 10px;
+    min-height: 60px;
+  }
+  .trainee1-left {
+    min-width: 100%;
+    min-height: 50vh;
+  }
+  .other-trainee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .other-trainee {
+    min-width: 80%;
+  }
+  .slide-image1,
+  .slide-image2,
+  .slide-image3,
+  .slide-image4 {
+    box-shadow: inset 0 0 20rem 2rem #000;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-item {
+    padding: 8px 5px;
+    font-size: 13px;
+  }
+  .item4 {
+    padding: 15px;
+  }
+  .item2 {
+    padding-right: 0;
+  }
+  .item5 {
+    padding-left: 0;
+  }
+  .home-passage {
+    padding: 10px 0px;
+    margin: auto 5%;
+    font-size: 13px;
+  }
+  .home-heading {
+    font-size: 23px;
+  }
+  .service1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .service2 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .service1-img,
+  .service2-img {
+    min-width: 80%;
+  }
+  .service1-info,
+  .service2-info {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .pack-name {
+    font-size: 15px;
+  }
+  .colored-pack {
+    font-size: 16px;
+  }
+  .pack-price {
+    font-size: 15px;
+  }
+  .colored-rs {
+    font-size: 16px;
+  }
+  .location {
+    flex-wrap: wrap;
+  }
+  .location1,
+  .location2 {
+    min-width: 90%;
+    border-right: none;
+    text-align: center;
+    margin-bottom: 12px;
+    box-shadow: 0 0 3px rgb(204, 116, 0, 0.7);
+  }
+  .location-topic {
+    font-size: 18px;
+  }
+  .location-address {
+    font-size: 14px;
+  }
+  .review {
+    min-width: 80%;
+  }
+  .review-name {
+    font-size: 18px;
+  }
+  .review-text {
+    font-size: 13px;
+  }
+  .direct {
+    font-size: 17px;
+  }
+  .call-us,
+  .mail {
+    font-size: 14px;
+  }
+  .call-us {
+    padding: 0 10px 0 10px;
+  }
+  .copyrights {
+    font-size: 13px;
+  }
+  .trainers-container {
+    width: 100%;
+    min-height: 90vh;
+    padding: 80px 20px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .trainer-container {
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-image1,
+  .slide-image2,
+  .slide-image3,
+  .slide-image4 {
+    box-shadow: inset 0 0 20rem 2rem #000;
+  }
+  .packages-container {
+    box-shadow: inset 0 0 50rem 4rem #000;
+  }
+  .contact-container {
+    box-shadow: inset 0 0 50rem 3rem #000;
+  }
+  .locations-container {
+    box-shadow: inset 0 0 70rem 7rem #000;
+  }
+  .trainee1-left {
+    margin: 0;
+    min-width: 90%;
+  }
+  .trainee1-details {
+    padding: 0;
+  }
+  .contact-left {
+    min-width: 50%;
+  }
+  .contact-right {
+    min-width: 60%;
+  }
+  .contacts {
+    flex-wrap: wrap;
+  }
 }

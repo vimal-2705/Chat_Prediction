@@ -12,7 +12,7 @@ function AboutUs() {
         <h1 className="page-heading">
           ABOUT <span style={{ color: "rgb(223, 126, 0)" }}>US</span>
         </h1>
-        <p>
+        <p className="page-passage">
         It was popularised in the 1960s with the release of Letraset sheets 
         containing Lorem Ipsum passages, and more recently 
         with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

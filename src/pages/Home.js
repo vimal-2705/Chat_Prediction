@@ -3,26 +3,28 @@ import CarouselContainer from "../components/CarouselContainer";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Services from "../components/Services";
-import Trainers from "../components/Trainers";
+import Teachers from "../components/Teachers";
 import Packages from "../components/Packages";
 import Shop from "../components/Shop";
 import Reviews from "../components/Reviews";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Locations from "../components/Locations";
+import Predict from "../components/Predict";
 
 function Home() {
   return (
     <div>
       {/*
-      <CarouselContainer />
       <Services /> 
       <Packages /> 
       <Shop />
-      <Locations /> */}
-      <Trainers />
+      <Locations />
+      <Reviews /> */}
+      <CarouselContainer />
+      <Predict />
       <About />
-      <Reviews />
+      <Teachers />
       <Contact />
       <Footer />
     </div>

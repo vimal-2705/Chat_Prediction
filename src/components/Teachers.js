@@ -13,7 +13,7 @@ function Trainers() {
         <div className="trainer trainer1">
           <img
             className="trainer1-img"
-            src="https://images.pexels.com/photos/927437/pexels-photo-927437.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           />
           <div className="trainer-info">
             <div className="trainer-name">James Bond</div>
@@ -28,7 +28,7 @@ function Trainers() {
         <div className="trainer trainer2">
           <img
             className="trainer2-img"
-            src="https://images.pexels.com/photos/927437/pexels-photo-927437.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://images.pexels.com/photos/1090387/pexels-photo-1090387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           />
           <div className="trainer-info">
             <div className="trainer-name">James Bond</div>
@@ -38,13 +38,13 @@ function Trainers() {
               appear.
             </div>
           </div>
-          <Link to="/trainers"><button className="trainer-btn">All Trainers</button></Link>
+          <Link to="/teachers"><button className="trainer-btn">All Trainers</button></Link>
         </div>
 
         <div className="trainer trainer3">
           <img
             className="trainer3-img"
-            src="https://images.pexels.com/photos/927437/pexels-photo-927437.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           />
           <div className="trainer-info">
             <div className="trainer-name">James Bond</div>
